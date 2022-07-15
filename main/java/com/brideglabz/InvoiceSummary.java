@@ -1,7 +1,5 @@
 package com.brideglabz;
 
-import java.util.Objects;
-
 public class InvoiceSummary {
 
     private final int numOfRides;
@@ -23,4 +21,5 @@ public class InvoiceSummary {
         this.totalFare = totalFare;
         this.averageFare = this.totalFare/this.numOfRides;
     }
+
 }

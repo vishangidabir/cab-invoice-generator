@@ -19,5 +19,6 @@ public class InvoiceGenerator {
         }
         return new InvoiceSummary(ride.length, totalFare);
     }
+
 }
 

@@ -9,4 +9,12 @@ public class Ride {
         this.distance = distance;
         this.time = time;
     }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public int getTime() {
+        return time;
+    }
 }
